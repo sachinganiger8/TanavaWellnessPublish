@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ta-Vana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        ol.key-features {
+            padding-left: 50px;
+        }
+
+        .key-features li {
+            color: #4F4F4F;
+            padding-left: 16px;
+            margin-top: 24px;
+            position: relative;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .key-features li:before {
+            content: "";
+            display: block;
+            height: 42px;
+            width: 42px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+            position: absolute;
+            top: -9px;
+            left: -32px;
+        }
+
+        .key-features li:nth-child(odd):before {
+            border-color: #0BAD02;
+        }
+
+        .key-features li:nth-child(even):before {
+            border-color: #2378D5;
+        }
+
+
+
+        .ideal-for-list .num {
+            padding: 0.5rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            transition: 0.25s;
+            background-color: #e8f0e9;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .ideal-for-list .num:nth-child(0):before {
+            content: '0';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(1):before {
+            content: '1';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(2):before {
+            content: '2';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(3):before {
+            content: '3';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(4):before {
+            content: '4';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(5):before {
+            content: '5';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(6):before {
+            content: '6';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(7):before {
+            content: '7';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(8):before {
+            content: '8';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:nth-child(9):before {
+            content: '9';
+            font-size: 4rem;
+            font-weight: bold;
+            color: #000;
+            width: 2rem;
+            opacity: 0.05;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num h3 {
+            position: relative;
+            left: -1.5rem;
+            color: #3d3d3d;
+            font-size: 1.3rem;
+            transition: 0.25s;
+        }
+
+        .ideal-for-list .num:hover {
+            background-color: #d2e2d4;
+            cursor: pointer;
+        }
+
+        .ideal-for-list .num:hover:before {
+            opacity: 0.2;
+        }
+
+        .ideal-for-list .num:hover h3 {
+            left: 1rem;
+        }
+
+        .message {
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body id="body">
+    <div class="navbar-container">
+        <div class="container">
+            <nav class="navbar sticky-top navbar-expand-lg rounded" aria-label="Eleventh navbar example">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="Index.html">
+                        <img src="images/Ta-vana Logo.png" alt="Ta-Vana" height="48px">
+                    </a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navbarsExample09">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Index.html#body">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.html#products">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.html#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Index.html#contact-us">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row flex-lg-row-reverse align-items-center">
+            <div class="col-lg-6">
+                <div class="lc-block">
+                    <img class="img-fluid" src="images/AwakenTheGlowWithAwacado.JPG" loading="lazy" width="900"
+                        height="600">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="lc-block">
+                    <div editable="rich">
+                        <h1>Balm for bloom 24/7 moisture lock balm</h1>
+                        <p class="lead">Indulge in the luxury of nature&#39;s finest whispers. The balm caresses your
+                            skin, like jojoba oil, a nurturing protector, enveloping you in its rich
+                            antioxidants. Passion plum oil dances softly on your complexion, fading the
+                            marks of time, while blue tansy offers a tranquil, grounding presence, infusing
+                            your skin with timeless beauty. weave a delicate barrier, locking in hydration,
+                            leaving your skin feeling pampered, renewed, and glowing with effortless
+                            radiance. Every touch is a moment of pure luxury, turning your daily ritual into
+                            an indulgent escape.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="divider-space"></div>
+        <h2 class="text-center">Key Features of the Face Balm</h2>
+        <ol class="key-features">
+            <li>
+                <h5>Intense Hydration and Barrier Repair:</h5>
+                <p>Formulated with <span class="fw-bold">shea butter</span> and <strong>avocado butter</strong> this
+                    balm deeply
+                    nourishes while lecithin strengthen the lipid barrier, locking in moisture.</p>
+            </li>
+            <li>
+                <h5>Neurocosmetic Benefits:</h5>
+                <p>Blue tansy extract,passion fruit oil helps reduce stress-related skin
+                    damage, promoting a calm and balanced complexion.</p>
+            </li>
+            <li>
+                <h5>Brightening and Revitalizing</h5>
+                <p>Sunflower deliver a radiant glow to the skin.</p>
+            </li>
+            <li>
+                <h5>Holistic Aroma</h5>
+                <p>Enhanced with calming essential oils like lavender this balm provides a
+                    soothing sensory experience.</p>
+            </li>
+            <li>
+                <h5>Luxurious Feel</h5>
+                <p>The balm glides smoothly with capric triglycerides, leaving a soft,
+                    velvety finish.</p>
+            </li>
+        </ol>
+    </div>
+
+    <div class="container">
+        <div class="divider-space"></div>
+        <h2 class="textt-center text-center">Ideal For</h2>
+        <div class="ideal-for-list">
+            <div class="num">
+                <h3>Dry, sensitive, or stressed skin in need of intense hydration and repair.</h3>
+            </div>
+            <div class="num">
+                <h3>Individuals seeking anti-aging benefits and neurocosmetic advantages.</h3>
+            </div>
+            <div class="num">
+                <h3>Those who prefer eco-conscious luxury skincare for holistic care.</h3>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-center">This revised version incorporates the calming aroma for a more holistic and
+        luxurious experience.</p>
+
+    <div id="footer">
+        <p class="m-0 text-center">© 2025 by Ta-Vana. All rights reserved.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
